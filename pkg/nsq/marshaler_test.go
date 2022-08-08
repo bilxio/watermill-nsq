@@ -5,7 +5,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/chennqqi/watermill-nsq/pkg/nsq"
+	"github.com/data233/watermill-nsq/pkg/nsq"
 	stdnsq "github.com/nsqio/go-nsq"
 
 	"github.com/stretchr/testify/assert"
