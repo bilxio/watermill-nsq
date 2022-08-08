@@ -1,4 +1,4 @@
-module github.com/bilxio/watermill-nsq
+module github.com/data233/watermill-nsq
 
 go 1.16
 
