@@ -48,7 +48,9 @@ func (c *NsqSubscriberConfig) setDefaults() {
 		c.RequeueTimeout = time.Second
 	}
 
-	c.Unmarshaler = &GobMarshaler{}
+	if c.Unmarshaler == nil {
+		c.Unmarshaler = &GobMarshaler{}
+	} 
 }
 
 func (c *NsqSubscriberConfig) Validate() error {
